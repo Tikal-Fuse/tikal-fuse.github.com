@@ -1,0 +1,93 @@
+html, body {
+    background: #364B66;
+    font-family: Helvetica, Arial, Sans, Serif;
+    font-size: 12px;
+    color: #808080;
+}
+
+body {
+    width: 900px;
+    margin: auto;
+    padding: 10px;
+}
+
+.fuse-header {
+    width: 100%;
+    background: white;
+    height: 75px;
+    padding: 5px;
+    margin-bottom: 10px;
+    -webkit-border-radius: 10px;
+    -webkit-box-shadow: 0 1px 2px #808080;
+    -moz-border-radius: 10px;
+}
+
+.fuse-header .logo {
+    float: left;
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
+
+.fuse-header .title {
+    float: left;
+    position: relative;
+    top: 5px;
+    left: -280px;
+    font-size: 44px;
+    font-weight: bold;
+    color: #808080;
+}
+
+.fuse-welcome {
+    width: 100%;
+    background: #e37c27;
+    padding: 5px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-box-shadow: 0 1px 2px #808080;
+    margin-bottom: 20px;
+}
+
+.fuse-welcome .title {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    margin: 5px;
+}
+
+.fuse-welcome .content {
+    color: white;
+    margin: 5px;
+}
+
+.fuse-about {
+    border-color: transparent white transparent;
+    border-style: solid solid solid none;
+    border-width: 10px 10px 10px 0;
+    display: block;
+    left: 12px;
+    position: relative;
+    text-indent: -999em;
+    float: left;
+    top: 4px;
+    width: 0;
+}
+
+.fuse-bubble {
+    width: 880px;
+    background: white;
+    position: relative;
+    padding: 5px;
+    left: 10px;
+    -webkit-border-radius: 10px;
+    -webkit-box-shadow: 0 1px 0 #808080;
+    -moz-border-radius: 10px;
+    margin-bottom: 20px;
+    float: left;
+}
+
+.fuse-bubble .content {
+    color: #606060;
+    margin: 5px;
+}
